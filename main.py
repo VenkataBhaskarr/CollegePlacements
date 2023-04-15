@@ -1,9 +1,16 @@
 import streamlit as st
-st.title("creating a fuckin static but fckin amazing website excited lesgo")
+
+st.title("List of your placement oppurtunites with added pinch of sugar")
+
+st.divider()
 
 
-st.multiselect('Buy', ['milk', 'apples', 'potatoes'])
+st.info("# Company A\n\nDate of the mail recieved: 12-04-2023\n\nDeadline to apply: 12-04-2023\n\n#### Eligibility criteria : B.techCSE\n\n#### Previously asked questions : [StackEdit](https://youtube.com/)\n\n#### About the company : [CompanyA](https://youtube.com/)")
 
-
-st.text_area('Text to translate')
+st.divider()
+st.error("# Information\nThis is some pre-defined text.") 
+st.divider()
+st.success("# Information\nThis is some pre-defined text.")
+st.divider()
+st.warning("# Information\nThis is some pre-defined text.")
 
